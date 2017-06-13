@@ -1,0 +1,16 @@
+name = products
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = comment_body
+features[field_instance][] = node-produkt-body
+features[node][] = produkt
+features[views_view][] = view_product
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules
