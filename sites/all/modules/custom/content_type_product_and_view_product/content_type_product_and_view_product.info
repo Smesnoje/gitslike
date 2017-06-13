@@ -1,7 +1,0 @@
-name = Content type product and view product
-description = Content type product and view product
-core = 7.x
-package = Custom
-version = 7.x-1.0
-features[features_api][] = api:2
-project path = sites/all/modules/custom
