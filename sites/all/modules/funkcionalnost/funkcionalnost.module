@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Funkcionalnost feature.
+ */
+
+include_once 'funkcionalnost.features.inc';
