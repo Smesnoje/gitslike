@@ -73,7 +73,7 @@
  * @ingroup templates
  */
 ?>
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+<header id="navbar" role="banner" class="navbar-container">
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
       <?php if ($logo): ?>
@@ -111,6 +111,8 @@
         </nav>
       </div>
     <?php endif; ?>
+  </div>
+  <div class="header-menu">
   </div>
 </header>
 
