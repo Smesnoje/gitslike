@@ -111,12 +111,19 @@
               <?php print render($page['navigation']); ?>
             <?php endif; ?>
             <div class="block-wrap">
-              <?php print render($page['preview_blocks']);?>
-            <div class="blockpreview">
-              <p>slike po porudzbini</p>
+            <div class="blockpreview1">
+              <a href="#">slike po porudzbini</a>
+              <div class="slike-po-porudzbini">
+                <div class="arrow-up1"></div>
+              <?php print render($page['preview_block1']); ?>
             </div>
-            <div class="blockpreview">
+            </div>
+            <div class="blockpreview2">
               <p>prodajna galerija</p>
+              <div class="prodajna-galerija">
+                <div class="arrow-up"></div>
+                <?php print render($page['preview_block2']);?>
+              </div>
             </div>
           </div>
           </nav>

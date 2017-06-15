@@ -19,8 +19,8 @@ regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 regions[text_blocks]    = 'Text blocks'
-regions[preview_blocks] = 'Preview blocks'
-
+regions[preview_block1] = 'Preview block1'
+regions[preview_block2] = 'Preview block2'
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;

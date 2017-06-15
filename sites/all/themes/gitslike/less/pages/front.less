@@ -59,16 +59,70 @@
   }
 }
 .block-wrap{
-  margin:auto;
+  //margin:auto
+  margin-right:300px;
   float:right;
+  display:inline-block;
 }
-.blockpreview{
-  margin-top:10px;
+.blockpreview1{
+  margin:10px 50px 0px 10px;
+  vertical-align: top;
   display:inline-block;
   width:100px;
   height:100%;
   color:#737373;
+  &:hover > .slike-po-porudzbini{
+    display:block!important;
+  }
 }
-.block-views{
-  visibility: hidden;
+.blockpreview2{
+  margin:10px 50px 0px 10px;
+  vertical-align: top;
+  display:inline-block;
+  width:100px;
+  height:100%;
+  color:#737373;
+  &:hover > .prodajna-galerija{
+    display:block!important;
+  }
+
+}
+.slike-po-porudzbini{
+ border-top:10px solid transparent;
+ border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+ border-image-slice: 1;
+ margin-top: 10px;
+ width:650px;
+ position:absolute;
+ right:260px;
+ display: none;
+ background-color: red;
+}
+.prodajna-galerija{
+  // margin-top:2px;
+  width:650px;
+  position:absolute;
+  right:160px;
+  display: none;
+  background-color: red;
+}
+.arrow-up {
+  position:absolute;
+  bottom:100%;
+  left:55%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+.arrow-up1 {
+  position:absolute;
+  bottom:100%;
+  left:47%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
 }
