@@ -112,7 +112,7 @@
             <?php endif; ?>
             <div class="block-wrap">
             <div class="blockpreview1">
-              <a href="#">slike po porudzbini</a>
+              <p>slike po porudzbini</p>
               <div class="slike-po-porudzbini">
                 <div class="arrow-up1"></div>
               <?php print render($page['preview_block1']); ?>

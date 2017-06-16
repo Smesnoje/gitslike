@@ -32,18 +32,18 @@ stylesheets[all][] = css/style.css
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
 
-scripts[] = 'bootstrap/js/affix.js'
-scripts[] = 'bootstrap/js/alert.js'
-scripts[] = 'bootstrap/js/button.js'
-scripts[] = 'bootstrap/js/carousel.js'
-scripts[] = 'bootstrap/js/collapse.js'
-scripts[] = 'bootstrap/js/dropdown.js'
-scripts[] = 'bootstrap/js/modal.js'
-scripts[] = 'bootstrap/js/tooltip.js'
-scripts[] = 'bootstrap/js/popover.js'
-scripts[] = 'bootstrap/js/scrollspy.js'
-scripts[] = 'bootstrap/js/tab.js'
-scripts[] = 'bootstrap/js/transition.js'
+scripts[] = 'js/affix.js'
+scripts[] = 'js/alert.js'
+scripts[] = 'js/button.js'
+scripts[] = 'js/carousel.js'
+scripts[] = 'js/collapse.js'
+scripts[] = 'js/dropdown.js'
+scripts[] = 'js/modal.js'
+scripts[] = 'js/tooltip.js'
+scripts[] = 'js/popover.js'
+scripts[] = 'js/scrollspy.js'
+scripts[] = 'js/tab.js'
+scripts[] = 'js/transition.js'
 
 ; Disable the CDN provider so compiled source files can be used.
 settings[bootstrap_cdn] = ''

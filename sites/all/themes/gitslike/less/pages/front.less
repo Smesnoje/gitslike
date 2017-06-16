@@ -88,23 +88,36 @@
 
 }
 .slike-po-porudzbini{
- border-top:10px solid transparent;
+ border-top:2px solid transparent;
  border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
  border-image-slice: 1;
- margin-top: 10px;
+ // margin-top: 10px;
  width:650px;
  position:absolute;
  right:260px;
  display: none;
- background-color: red;
+ &:hover{
+   display:block
+ }
+ z-index: 20;
 }
 .prodajna-galerija{
   // margin-top:2px;
+  border-top:2px solid transparent;
+  border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+  border-image-slice: 1;
   width:650px;
   position:absolute;
   right:160px;
   display: none;
   background-color: red;
+  &:hover{
+    display:block
+  }
+  z-index: 20;
+  p{
+      text-align: center;
+  }
 }
 .arrow-up {
   position:absolute;
@@ -125,4 +138,7 @@
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: 5px solid black;
+}
+.block-proba {
+  // background-color: red!important;
 }

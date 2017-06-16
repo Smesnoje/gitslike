@@ -6804,22 +6804,34 @@ button.close {
   display: block!important;
 }
 .slike-po-porudzbini {
-  border-top: 10px solid transparent;
+  border-top: 2px solid transparent;
   border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
   border-image-slice: 1;
-  margin-top: 10px;
   width: 650px;
   position: absolute;
   right: 260px;
   display: none;
-  background-color: red;
+  z-index: 20;
+}
+.slike-po-porudzbini:hover {
+  display: block;
 }
 .prodajna-galerija {
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+  border-image-slice: 1;
   width: 650px;
   position: absolute;
   right: 160px;
   display: none;
   background-color: red;
+  z-index: 20;
+}
+.prodajna-galerija:hover {
+  display: block;
+}
+.prodajna-galerija p {
+  text-align: center;
 }
 .arrow-up {
   position: absolute;
