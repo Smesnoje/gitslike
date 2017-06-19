@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VIew_forme feature.
+ */
+
+include_once 'view_forme.features.inc';

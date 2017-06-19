@@ -1,0 +1,16 @@
+name = VIew_forme
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = views
+dependencies[] = webform
+features[ctools][] = strongarm:strongarm:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[node][] = webform
+features[variable][] = comment_webform
+features[views_view][] = poruci_kolaz
+features_exclude[dependencies][ctools] = ctools
