@@ -6792,10 +6792,12 @@ button.close {
   color: #737373;
 }
 .blockpreview1:hover > .slike-po-porudzbini {
-  display: block!important;
+  visibility: visible;
+  opacity: 1;
 }
 .blockpreview1:hover > .arrow-up {
-  display: block!important;
+  visibility: visible;
+  opacity: 1;
 }
 .blockpreview2 {
   margin: 10px 50px 0px 10px;
@@ -6806,10 +6808,12 @@ button.close {
   color: #737373;
 }
 .blockpreview2:hover > .prodajna-galerija {
-  display: block!important;
+  visibility: visible;
+  opacity: 1;
 }
 .blockpreview2:hover > .arrow-up1 {
-  display: block!important;
+  visibility: visible;
+  opacity: 1;
 }
 .slike-po-porudzbini {
   text-align: center;
@@ -6821,7 +6825,9 @@ button.close {
   width: 650px;
   position: absolute;
   right: 260px;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
   z-index: 20;
 }
 .slike-po-porudzbini:hover {
@@ -6845,7 +6851,9 @@ button.close {
   width: 650px;
   position: absolute;
   right: 260px;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
   z-index: 20;
 }
 .prodajna-galerija:hover {
@@ -6861,7 +6869,9 @@ button.close {
 }
 .arrow-up {
   margin-left: 27px;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
@@ -6870,7 +6880,9 @@ button.close {
 }
 .arrow-up1 {
   margin-left: 27px;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
