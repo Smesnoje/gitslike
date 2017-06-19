@@ -111,6 +111,10 @@
               <?php print render($page['navigation']); ?>
             <?php endif; ?>
             <div class="block-wrap">
+              <div class="home-link">
+                <h2 class="home-3dela">Slike iz tri dela</h2>
+                <h2 class="home-platno">Slike iz tri dela</h2>
+              </div>
             <div class="blockpreview1">
               <p>slike po porudzbini</p>
               <div class="slike-po-porudzbini">
