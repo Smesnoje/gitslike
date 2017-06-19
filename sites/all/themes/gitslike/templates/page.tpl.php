@@ -114,14 +114,14 @@
             <div class="blockpreview1">
               <p>slike po porudzbini</p>
               <div class="slike-po-porudzbini">
-                <div class="arrow-up1"></div>
+                <div class="arrow-up"></div>
               <?php print render($page['preview_block1']); ?>
             </div>
             </div>
             <div class="blockpreview2">
               <p>prodajna galerija</p>
               <div class="prodajna-galerija">
-                <div class="arrow-up"></div>
+                <div class="arrow-up1"></div>
                 <?php print render($page['preview_block2']);?>
               </div>
             </div>

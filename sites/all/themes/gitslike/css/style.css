@@ -6804,9 +6804,12 @@ button.close {
   display: block!important;
 }
 .slike-po-porudzbini {
+  text-align: center;
+  background-color: white;
   border-top: 2px solid transparent;
   border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
   border-image-slice: 1;
+  border: 1px solid #3399dd;
   width: 650px;
   position: absolute;
   right: 260px;
@@ -6816,34 +6819,39 @@ button.close {
 .slike-po-porudzbini:hover {
   display: block;
 }
+.slike-po-porudzbini .views-row {
+  margin: 0;
+  display: inline-block;
+}
+.slike-po-porudzbini .view-footer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .prodajna-galerija {
+  text-align: center;
+  background-color: white;
   border-top: 2px solid transparent;
   border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
   border-image-slice: 1;
+  border: 1px solid #3399dd;
   width: 650px;
   position: absolute;
-  right: 160px;
+  right: 260px;
   display: none;
-  background-color: red;
   z-index: 20;
 }
 .prodajna-galerija:hover {
   display: block;
 }
-.prodajna-galerija p {
-  text-align: center;
+.prodajna-galerija .views-row {
+  margin: 0;
+  display: inline-block;
+}
+.prodajna-galerija .view-footer {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .arrow-up {
-  position: absolute;
-  bottom: 100%;
-  left: 55%;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid black;
-}
-.arrow-up1 {
   position: absolute;
   bottom: 100%;
   left: 47%;
@@ -6853,7 +6861,31 @@ button.close {
   border-right: 5px solid transparent;
   border-bottom: 5px solid black;
 }
+.arrow-up1 {
+  position: absolute;
+  bottom: 100%;
+  left: 71%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+.block-proba {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  background-image: linear-gradient(to right, #ccc 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 25px 1px;
+  background-repeat: repeat-x;
+}
 .views-row {
   width: 190px;
+}
+.views-row .field-item img {
+  margin: auto;
+}
+.category-block h2 {
+  font-size: 14px!important;
 }
 /*# sourceMappingURL=style.css.map */
