@@ -138,9 +138,24 @@
 </header>
 
 <div class="main-container <?php print $container_class; ?>">
+
+  <header role="banner" id="page-header" class="git-header">
+      <h1>G.I.T SLIKE</h1>
+  </header> <!-- /#page-header -->
+
   <div class="row">
     <section class="col-sm-6">
+      <div class="front-img">
+          <img src="<?php echo $base_path?>sites/default/files/front.png" height="400px" width="800px"/>
+      </div>
       <?php print render($page['content']);?>
     </section>
+
+    <?php if (!empty($page['sidebar_second'])): ?>
+      <aside class="col-sm-4 about" role="complementary">
+        <?php print render($page['sidebar_second']); ?>
+      </aside>  <!-- /#sidebar-second -->
+    <?php endif; ?>
+
   </div>
 </div>
