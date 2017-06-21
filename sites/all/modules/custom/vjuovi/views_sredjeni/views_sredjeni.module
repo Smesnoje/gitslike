@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the views_sredjeni feature.
+ */
+
+include_once 'views_sredjeni.features.inc';
