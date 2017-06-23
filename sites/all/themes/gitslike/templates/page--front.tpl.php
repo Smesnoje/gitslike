@@ -148,7 +148,7 @@
       <div class="front-img">
           <img src="<?php echo $base_path?>sites/default/files/front.png" height="400px" width="800px"/>
       </div>
-      <?php print render($page['content']);?>
+      
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>

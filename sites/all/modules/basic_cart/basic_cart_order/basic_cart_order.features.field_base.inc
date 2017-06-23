@@ -35,7 +35,7 @@ function basic_cart_order_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(),
-    'translatable' => 0,
+    'translatable' => 1,
     'type' => 'text_with_summary',
   );
 
@@ -64,7 +64,7 @@ function basic_cart_order_field_default_field_bases() {
     'settings' => array(
       'max_length' => 255,
     ),
-    'translatable' => 0,
+    'translatable' => 1,
     'type' => 'text',
   );
 
@@ -93,7 +93,7 @@ function basic_cart_order_field_default_field_bases() {
     'settings' => array(
       'max_length' => 255,
     ),
-    'translatable' => 0,
+    'translatable' => 1,
     'type' => 'text',
   );
 
@@ -122,7 +122,7 @@ function basic_cart_order_field_default_field_bases() {
     'settings' => array(
       'max_length' => 255,
     ),
-    'translatable' => 0,
+    'translatable' => 1,
     'type' => 'text',
   );
 
@@ -151,7 +151,7 @@ function basic_cart_order_field_default_field_bases() {
     'settings' => array(
       'max_length' => 255,
     ),
-    'translatable' => 0,
+    'translatable' => 1,
     'type' => 'text',
   );
 
@@ -180,7 +180,7 @@ function basic_cart_order_field_default_field_bases() {
     'settings' => array(
       'max_length' => 255,
     ),
-    'translatable' => 0,
+    'translatable' => 1,
     'type' => 'text',
   );
 
@@ -209,7 +209,7 @@ function basic_cart_order_field_default_field_bases() {
     'settings' => array(
       'max_length' => 255,
     ),
-    'translatable' => 0,
+    'translatable' => 1,
     'type' => 'text',
   );
 
@@ -231,7 +231,7 @@ function basic_cart_order_field_default_field_bases() {
       'precision' => 10,
       'scale' => 2,
     ),
-    'translatable' => 0,
+    'translatable' => 1,
     'type' => 'number_decimal',
   );
 

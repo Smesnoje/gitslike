@@ -36,7 +36,7 @@ function basic_cart_order_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Message',
+    'label' => 'Poruka',
     'required' => 0,
     'settings' => array(
       'display_summary' => 0,
@@ -78,7 +78,7 @@ function basic_cart_order_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_address',
-    'label' => 'Address',
+    'label' => 'Adresa',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -118,7 +118,7 @@ function basic_cart_order_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_city',
-    'label' => 'City',
+    'label' => 'Grad',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -158,8 +158,8 @@ function basic_cart_order_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_email',
-    'label' => 'Email',
-    'required' => 1,
+    'label' => 'Mejl',
+    'required' => 0,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -176,44 +176,6 @@ function basic_cart_order_field_default_field_instances() {
   );
 
   // Exported field_instance: 'node-order-field_phone'
-  $field_instances['node-order-field_phone'] = array(
-    'bundle' => 'order',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 2,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_phone',
-    'label' => 'Phone',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 2,
-    ),
-  );
 
   // Exported field_instance: 'node-order-field_total_price'
   $field_instances['node-order-field_total_price'] = array(
@@ -238,7 +200,7 @@ function basic_cart_order_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_total_price',
-    'label' => 'Total price',
+    'label' => 'Ukupno',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -278,7 +240,7 @@ function basic_cart_order_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_zipcode',
-    'label' => 'Zip Code',
+    'label' => 'Postanski broj',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -342,15 +304,15 @@ function basic_cart_order_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Address');
-  t('City');
+  t('Adresa');
+  t('Grad');
   t('Email');
-  t('Message');
-  t('Phone');
+  t('Poruka');
+  t('Telefon');
   t('The VAT tax.');
   t('Total price');
   t('VAT');
-  t('Zip Code');
+  t('Postanski broj');
 
   return $field_instances;
 }

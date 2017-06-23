@@ -6733,6 +6733,23 @@ button.close {
     display: none !important;
   }
 }
+.category-title {
+  text-align: center!important;
+}
+.model {
+  width: 200px;
+  height: 300px;
+}
+.model .field .field-item img {
+  margin: auto;
+}
+.product {
+  width: 200px;
+  height: 300px;
+}
+.product .field .field-item img {
+  margin: auto;
+}
 .navbar-container {
   width: 100%!important;
   border: 1px solid #737373;
@@ -6764,7 +6781,7 @@ button.close {
 }
 #block-block-1 {
   display: inline-block;
-  margin: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 300px;
   color: white;
   width: 300px;
 }
@@ -6931,10 +6948,10 @@ button.close {
   background-size: 25px 1px;
   background-repeat: repeat-x;
 }
-.views-row {
+.block-proba .views-row {
   width: 190px;
 }
-.views-row .field-item img {
+.block-proba .views-row .field-item img {
   margin: auto;
 }
 .category-block h2 {
@@ -6965,5 +6982,37 @@ button.close {
 .about h2 {
   font-family: jenna_sueregular;
   font-size: 40px;
+}
+#block-views-modeli-po-porudzbini-block {
+  text-align: center;
+  font-family: latosemibold;
+}
+.block-modeli {
+  margin: 0 auto;
+  padding: 30px;
+  display: inline-block;
+}
+.block-modeli .views-row {
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+#block-views-produkt-galerija-block {
+  text-align: center;
+  font-family: latosemibold;
+}
+.block-produkti {
+  margin: 0 auto;
+  padding: 30px;
+  display: inline-block;
+}
+.block-produkti .views-row {
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
