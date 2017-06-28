@@ -7,12 +7,7 @@
  * @ingroup views_templates
  */
 ?>
-<script>
-jQuery(document).ready(function() {
-    jQuery('.forma').load("http://localhost/gitslike/node/12  .webform-client-form");
-  });
 
-</script>
 <?php if (!empty($title)): ?>
   <h3><?php print $title; ?></h3>
 <?php endif; ?>

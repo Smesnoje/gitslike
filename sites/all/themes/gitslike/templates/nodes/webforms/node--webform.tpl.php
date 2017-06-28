@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * Default theme implementation to display a node.
@@ -76,26 +77,42 @@
  * @see template_preprocess_node()
  * @see template_process()
  *
- * @ingroup templates
+ * @ingroup themeable
  */
 ?>
-<article id="node-<?php print $node->nid; ?>" class="node-category"<?php print $attributes; ?>>
-  <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
-  <header>
-    <?php print render($title_prefix); ?>
-    <?php if (!$page && !empty($title)): ?>
-    <?php endif; ?>
-    <?php print render($title_suffix); ?>
-    <?php if ($display_submitted): ?>
-    <?php endif; ?>
-  </header>
-  <?php endif; ?>
-  <?php
-    // Hide comments, tags, and links now so that we can render them later.
-    hide($content['comments']);
-    hide($content['links']);
-    hide($content['field_tags']);
-    print render($content);
-  ?>
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+<script>
 
-</article>
+</script>
+<?php
+
+
+ ?>
+
+  <?php print $user_picture; ?>
+  <?php print render($title_prefix); ?>
+  <?php if (!$page): ?>
+    <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
+  <?php endif; ?>
+  <?php print render($title_suffix); ?>
+
+  <?php if ($display_submitted): ?>
+    <div class="submitted">
+      <?php print $submitted; ?>
+    </div>
+  <?php endif; ?>
+
+  <div class="content"<?php print $content_attributes; ?>>
+    <?php
+      // We hide the comments and links now so that we can render them later.
+      hide($content['comments']);
+      hide($content['links']);
+      print render($content);
+    ?>
+  </div>
+
+  <?php print render($content['links']); ?>
+
+  <?php print render($content['comments']); ?>
+
+</div>

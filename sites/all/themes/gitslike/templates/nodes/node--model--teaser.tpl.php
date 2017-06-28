@@ -80,6 +80,19 @@
  */
 ?>
 
+
+<script>function model<?php print ($node->nid);?>(){
+  if(window.location.href.indexOf("19") > -1) {
+    window.location.replace("http://localhost/gitslike/node/12/?dimenzija=<?php echo ($node->field_dimenzija['und'][0]['value']); ?>");
+  }
+  else {
+    window.location.replace("http://localhost/gitslike/node/13/?dimenzija=<?php echo ($node->field_dimenzija['und'][0]['value']); ?>");
+  }
+}
+</script>
+
+
+<!--  java-->
 <article id="node-<?php print $node->nid; ?>" class="model"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <?php endif; ?>
@@ -89,6 +102,11 @@
     hide($content['links']);
     hide($content['field_tags']);
     print render($content);
+
   ?>
+  <div class="php-<?php print ($node->nid) ?>">
+  <?php print ($node->field_dimenzija['und'][0]['value']); ?>
+  </div>
   <h2><?php print $title; ?></h2>
+  <button id="model" type="button" onclick="model<?php print ($node->nid);?>()">Poruci</button>
 </article>
