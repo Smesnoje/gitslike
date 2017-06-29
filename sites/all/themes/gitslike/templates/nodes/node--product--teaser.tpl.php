@@ -88,7 +88,13 @@
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
-    print render($content);
+    print render($content['field_product_image']);
   ?>
-  <h2><?php print $title; ?></h2>
+  <h3><?php print $title; ?></h3>
+  <?php
+    print render($content['field_dimenzije']);
+    print render($content['price']);
+    print render($content['add_to_cart']);
+  ?>
+
 </article>
