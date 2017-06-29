@@ -83,10 +83,10 @@
 
 <script>function model<?php print ($node->nid);?>(){
   if(window.location.href.indexOf("19") > -1) {
-    window.location.replace("http://localhost/gitslike/node/12/?dimenzija=<?php echo ($node->field_dimenzija['und'][0]['value']); ?>");
+    window.location.replace("http://localhost/gitslike/node/12/?dimenzija=<?php echo ($node->title); ?>");
   }
   else {
-    window.location.replace("http://localhost/gitslike/node/13/?dimenzija=<?php echo ($node->field_dimenzija['und'][0]['value']); ?>");
+    window.location.replace("http://localhost/gitslike/node/13/?dimenzija=<?php echo ($node->title); ?>");
   }
 }
 </script>
@@ -104,9 +104,7 @@
     print render($content);
 
   ?>
-  <div class="php-<?php print ($node->nid) ?>">
-  <?php print ($node->field_dimenzija['und'][0]['value']); ?>
-  </div>
+
   <h2><?php print $title; ?></h2>
   <button id="model" type="button" onclick="model<?php print ($node->nid);?>()">Poruci</button>
 </article>
