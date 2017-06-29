@@ -6983,6 +6983,12 @@ button.close {
   font-family: jenna_sueregular;
   font-size: 40px;
 }
+.fa {
+  font-size: 48px!important;
+}
+.fa:hover {
+  text-decoration: none;
+}
 #block-views-modeli-po-porudzbini-block {
   text-align: center;
   font-family: latosemibold;

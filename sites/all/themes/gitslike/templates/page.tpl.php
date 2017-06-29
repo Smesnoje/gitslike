@@ -75,6 +75,7 @@
 ?>
 <header id="navbar" role="banner" class="navbar-container">
   <?php print render ($page['text_blocks']); ?>
+  <a href="<?php echo $base_path?>/cart" class="fa fa-shopping-cart" aria-hidden="true"></a>
   <div class="header-menu">
     <div class="<?php print $container_class; ?>">
       <div class="navbar-header">
