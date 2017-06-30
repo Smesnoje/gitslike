@@ -6796,7 +6796,7 @@ button.close {
   height: 100px;
 }
 .main-container {
-  background-color: #e9eae5;
+  background-color: whitesmoke;
   width: 80%;
   height: 100%;
 }
@@ -6919,7 +6919,7 @@ button.close {
   margin-right: 20px;
 }
 .arrow-up {
-  margin-left: 27px;
+  margin-left: 45px;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.3s, opacity 0.3s linear;
@@ -6930,7 +6930,7 @@ button.close {
   border-top: 5px solid black;
 }
 .arrow-up1 {
-  margin-left: 27px;
+  margin-left: 45px;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.3s, opacity 0.3s linear;
@@ -6985,9 +6985,34 @@ button.close {
 }
 .fa {
   font-size: 48px!important;
+  color: white;
+  justify-content: center;
 }
 .fa:hover {
+  cursor: pointer;
+  color: whitesmoke;
   text-decoration: none;
+}
+.kontakt {
+  margin-left: 100px;
+  margin-bottom: 10px;
+  padding: 12px;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.kontakt:hover {
+  text-decoration: none;
+}
+.cart {
+  display: inline-block;
+  margin-left: 15%;
 }
 #block-views-modeli-po-porudzbini-block {
   text-align: center;

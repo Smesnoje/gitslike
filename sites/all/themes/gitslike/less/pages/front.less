@@ -49,7 +49,7 @@
   height:100px;
 }
 .main-container{
-  background-color: #e9eae5;
+  background-color: whitesmoke;
   width:80%;
   height:100%;
   h1{
@@ -179,7 +179,7 @@
   // position:absolute;
   // bottom:100%;
   // left:47%;
-  margin-left: 27px;
+  margin-left: 45px;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.3s, opacity 0.3s linear;
@@ -193,7 +193,7 @@
   // position:absolute;
   // bottom:100%;
   // left:71%;
-  margin-left: 27px;
+  margin-left: 45px;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.3s, opacity 0.3s linear;
@@ -257,7 +257,32 @@
 }
 .fa{
   font-size: 48px!important;
+  color:white;
+  justify-content: center;
+  &:hover{
+    cursor:pointer;
+    color:whitesmoke;
+    text-decoration: none;
+  }
+}
+.kontakt{
+  margin-left: 100px;
+  margin-bottom: 10px;
+  padding:12px;
+  font-size:18px;
+  text-align: center;
+  display:inline-block;
+  vertical-align: top;
+  width:100px;
+  height:50px;
+  background-color: white;
+  border:1px solid white;
+  border-radius: 5px;
   &:hover{
     text-decoration: none;
   }
+}
+.cart{
+  display: inline-block;
+  margin-left: 15%;
 }

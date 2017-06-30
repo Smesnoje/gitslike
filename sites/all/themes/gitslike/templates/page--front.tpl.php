@@ -75,6 +75,11 @@
 ?>
 <header id="navbar" role="banner" class="navbar-container">
   <?php print render ($page['text_blocks']); ?>
+  <div class="cart">
+  <a href="<?php echo $base_path?>/cart" class="fa fa-shopping-cart" aria-hidden="true"></a>
+  <a type="button" class="kontakt" href="<?php echo $base_path?>/kontakt">Kontakt
+</a>
+</div>
   <div class="header-menu">
     <div class="<?php print $container_class; ?>">
       <div class="navbar-header">
@@ -148,7 +153,7 @@
       <div class="front-img">
           <img src="<?php echo $base_path?>sites/default/files/front.png" height="400px" width="800px"/>
       </div>
-      
+
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
