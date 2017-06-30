@@ -330,7 +330,7 @@ function basic_cart_order_node_insert($node) {
       $node->vat[LANGUAGE_NONE][0]['value'] = $price->vat;
     }
 
-    field_attach_Osveži('node', $node);
+    field_attach_update('node', $node);
 
     $oid = $node->nid;
     foreach ($cart as $n) {

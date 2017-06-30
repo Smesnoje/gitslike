@@ -104,7 +104,7 @@
       </div>
 
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-        <div class="kurac" id="navbar-collapse">
+        <div class="navbar-2" id="navbar-collapse">
           <nav role="navigation">
             <?php if (!empty($primary_nav)): ?>
               <?php print render($primary_nav); ?>
@@ -148,12 +148,12 @@
       <h1>G.I.T SLIKE</h1>
   </header> <!-- /#page-header -->
 
-  <div class="row">
+  <div class="row front-top">
     <section class="col-sm-6">
       <div class="front-img">
           <img src="<?php echo $base_path?>sites/default/files/front.png" height="400px" width="800px"/>
       </div>
-
+        
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
@@ -162,12 +162,12 @@
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
   </div>
-  <div class="front-2">
+  <div class="row front-bot">
   <?php if (!empty($page['page_video'])): ?>
-    <div class="col-md-6">
+    <div class="col-md-6 tekst">
       tekst
     </div>
-    <aside class="col-md-6" role="complementary">
+    <aside class="col-md-6 video-bot" role="complementary">
       <?php print render ($page['page_video']); ?>
     </aside>  <!-- /#page_bottom -->
   <?php endif; ?>

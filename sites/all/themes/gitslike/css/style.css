@@ -6796,7 +6796,7 @@ button.close {
   height: 100px;
 }
 .main-container {
-  background-color: whitesmoke;
+  background: linear-gradient(to left, whitesmoke, #ccc);
   width: 80%;
   height: 100%;
 }
@@ -6804,11 +6804,11 @@ button.close {
   font-family: jenna_sueregular;
   font-size: 100px;
 }
-.kurac {
+.navbar-2 {
   width: 100%;
   height: 60px!important;
 }
-.kurac nav {
+.navbar-2 nav {
   height: 60px!important;
 }
 .block-wrap {
@@ -7021,6 +7021,17 @@ button.close {
 .cart {
   display: inline-block;
   margin-left: 15%;
+}
+.front-top {
+  margin-bottom: 50px;
+}
+.front-bot {
+  padding-top: 20px;
+  background: linear-gradient(to right, whitesmoke, #ccc);
+  padding-bottom: 100px;
+}
+.front-bot .video-bot {
+  padding-top: 50px;
 }
 #block-views-modeli-po-porudzbini-block {
   text-align: center;
