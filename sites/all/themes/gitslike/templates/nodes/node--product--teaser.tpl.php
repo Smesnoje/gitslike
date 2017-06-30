@@ -92,7 +92,7 @@
   ?>
   <h3><?php print $title; ?></h3>
   <?php
-    print render($content['field_dimenzije']);
+    print render($content['field_dimenzija']);
     print render($content['price']);
     print render($content['add_to_cart']);
   ?>
