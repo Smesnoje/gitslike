@@ -6953,9 +6953,17 @@ button.close {
 }
 .block-proba .views-row .field-item img {
   margin: auto;
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 4px;
 }
 .category-block h2 {
   font-size: 14px!important;
+  font-family: latosemibold;
+}
+.category-block h2 a:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
 .home-link {
   width: 300px;
