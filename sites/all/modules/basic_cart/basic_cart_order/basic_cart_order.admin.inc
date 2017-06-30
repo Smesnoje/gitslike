@@ -8,7 +8,7 @@
 /**
  * Callback for the admin messages.
  */
-function basic_cart_admin_checkout() {
+function basic_cart_admin_Checkout() {
   $form['messages'] = array(
     '#title' => t('Email messages'),
     '#type' => 'fieldset',
