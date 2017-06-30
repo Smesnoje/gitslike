@@ -89,7 +89,7 @@ function basic_cart_cart_form_submit($form_id, $form_state) {
     drupal_goto('checkout');
   }
   else {
-    drupal_set_message(t('Shopping cart updated.'));
+    drupal_set_message(t('Korpa je osvežena.'));
   }
 }
 
@@ -125,7 +125,7 @@ function basic_cart_add_to_cart($nid = NULL, $quantity = 1) {
       $_SESSION['basic_cart']['cart'][$nid] = $node;
     }
   }
-  drupal_set_message(t('Shopping cart updated.'));
+  drupal_set_message(t('Korpa je osvežena.'));
 
   $redirect = variable_get('basic_cart_redirect_user_after_add_to_cart', FALSE);
   if (empty($redirect)) {
@@ -151,7 +151,7 @@ function basic_cart_remove_from_cart($nid = NULL) {
   if ($nid > 0) {
     unset($_SESSION['basic_cart']['cart'][$nid]);
   }
-  drupal_set_message(t('Shopping cart updated.'));
+  drupal_set_message(t('Korpa je osvežena.'));
   drupal_goto('cart');
 }
 

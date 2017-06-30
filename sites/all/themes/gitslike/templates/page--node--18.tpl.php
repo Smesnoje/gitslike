@@ -167,7 +167,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']);?>
-      <div id="jednodelna-forma">
+      <div id="jednodelna-forma" class="col-md-6">
       </div>
     </section>
   </div>
