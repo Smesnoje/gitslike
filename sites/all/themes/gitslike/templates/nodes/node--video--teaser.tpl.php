@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * Default theme implementation to display a node.
@@ -76,35 +77,29 @@
  * @see template_preprocess_node()
  * @see template_process()
  *
- * @ingroup templates
+ * @ingroup themeable
  */
 ?>
-
-
-<script>function model<?php print ($node->nid);?>(){
-  if(window.location.href.indexOf("19") > -1) {
-    window.location.replace("http://localhost/gitslike/node/12/?model=<?php echo ($node->title); ?>");
-  }
-  else {
-    window.location.replace("http://localhost/gitslike/node/13/?model=<?php echo ($node->title); ?>");
-  }
-}
-</script>
-
-
-<!--  java-->
-<article id="node-<?php print $node->nid; ?>" class="model"<?php print $attributes; ?>>
-  <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+  <?php print $user_picture; ?>
+  <?php print render($title_prefix); ?>
+  <?php if (!$page): ?>
+    
   <?php endif; ?>
-  <?php
-    // Hide comments, tags, and links now so that we can render them later.
-    hide($content['comments']);
-    hide($content['links']);
-    hide($content['field_tags']);
-    print render($content);
-
-  ?>
-
-  <h2><?php print $title; ?></h2>
-  <button id="model" type="button" onclick="model<?php print ($node->nid);?>()">Poruci</button>
-</article>
+  <?php print render($title_suffix); ?>
+  <?php if ($display_submitted): ?>
+    <div class="submitted">
+      <?php print $submitted; ?>
+    </div>
+  <?php endif; ?>
+  <div class="content"<?php print $content_attributes; ?>>
+    <?php
+      // We hide the comments and links now so that we can render them later.
+      hide($content['comments']);
+      hide($content['links']);
+      print render($content);
+    ?>
+  </div>
+  <?php print render($content['links']); ?>
+  <?php print render($content['comments']); ?>
+</div>

@@ -148,7 +148,7 @@
       <div class="front-img">
           <img src="<?php echo $base_path?>sites/default/files/front.png" height="400px" width="800px"/>
       </div>
-      
+
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
@@ -156,6 +156,15 @@
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
-
   </div>
+  <div class="front-2">
+  <?php if (!empty($page['page_video'])): ?>
+    <div class="col-md-6">
+      tekst
+    </div>
+    <aside class="col-md-6" role="complementary">
+      <?php print render ($page['page_video']); ?>
+    </aside>  <!-- /#page_bottom -->
+  <?php endif; ?>
+</div>
 </div>
