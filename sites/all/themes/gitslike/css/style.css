@@ -6796,7 +6796,7 @@ button.close {
   height: 100px;
 }
 .main-container {
-  background: linear-gradient(to left, whitesmoke, #ccc);
+  background: whitesmoke;
   width: 80%;
   height: 100%;
 }

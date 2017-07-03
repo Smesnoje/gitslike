@@ -153,7 +153,7 @@
       <div class="front-img">
           <img src="<?php echo $base_path?>sites/default/files/front.png" height="400px" width="800px"/>
       </div>
-        
+
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
@@ -165,7 +165,7 @@
   <div class="row front-bot">
   <?php if (!empty($page['page_video'])): ?>
     <div class="col-md-6 tekst">
-      tekst
+      <?php print render($page['page_kontakt']); ?>
     </div>
     <aside class="col-md-6 video-bot" role="complementary">
       <?php print render ($page['page_video']); ?>

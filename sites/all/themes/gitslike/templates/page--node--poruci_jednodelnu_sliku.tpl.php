@@ -73,6 +73,7 @@
  * @ingroup templates
  */
 ?>
+bla bla
 <script>
  jQuery(document).ready(function() {
      jQuery('#jednodelna-forma').load("http://localhost/gitslike/node/11  .webform-client-form");
