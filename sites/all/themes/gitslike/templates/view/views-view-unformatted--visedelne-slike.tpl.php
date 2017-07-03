@@ -7,7 +7,7 @@
  * @ingroup views_templates
  */
 ?>
-
+<!-- ovo je prodajna galerija -->
 <?php if (!empty($title)): ?>
   <h3><?php print $title; ?></h3>
 <?php endif; ?>

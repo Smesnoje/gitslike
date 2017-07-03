@@ -93,18 +93,19 @@
 
 
 <!--  java-->
+<div class="view-model">
 <article id="node-<?php print $node->nid; ?>" class="model"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <?php endif; ?>
-  <?php
-    // Hide comments, tags, and links now so that we can render them later.
-    hide($content['comments']);
-    hide($content['links']);
-    hide($content['field_tags']);
-    print render($content);
 
-  ?>
+
+<?php    // Hide comments, tags, and links now so that we can render them later.  hide($content['comments']); ?>
+<?php    hide($content['links']); ?>
+<?php    hide($content['field_tags']); ?>
+<?php    print render($content);  ?>
+
 
   <h2><?php print $title; ?></h2>
   <button id="model" type="button" onclick="model<?php print ($node->nid);?>()">Poruci</button>
+  </div>
 </article>
