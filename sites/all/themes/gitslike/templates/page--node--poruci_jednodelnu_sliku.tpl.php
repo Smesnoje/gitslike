@@ -78,7 +78,6 @@ bla bla
  jQuery(document).ready(function() {
      jQuery('#jednodelna-forma').load("http://localhost/gitslike/node/11  .webform-client-form");
    });
-
 </script>
 <header id="navbar" role="banner" class="navbar-container">
   <?php print render ($page['text_blocks']); ?>
