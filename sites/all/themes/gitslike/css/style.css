@@ -7049,6 +7049,14 @@ button.close {
   margin-left: 20px;
   margin-bottom: 30px;
 }
+.view-model {
+  background-color: #dadada;
+  border: 1px solid #3399dd;
+  margin-left: -2px;
+}
+.view-model .model .field .field-items {
+  padding: 1px;
+}
 #block-views-produkt-galerija-block {
   text-align: center;
   font-family: latosemibold;
