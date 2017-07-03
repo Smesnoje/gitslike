@@ -73,7 +73,6 @@
  * @ingroup templates
  */
 ?>
-bla bla
 <script>
  jQuery(document).ready(function() {
      jQuery('#jednodelna-forma').load("http://localhost/gitslike/node/11  .webform-client-form");
@@ -105,7 +104,7 @@ bla bla
       </div>
 
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-        <div class="kurac" id="navbar-collapse">
+        <div class="navbar-2" id="navbar-collapse">
           <nav role="navigation">
             <?php if (!empty($primary_nav)): ?>
               <?php print render($primary_nav); ?>
@@ -166,7 +165,9 @@ bla bla
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
-      <?php print render($page['content']);?>
+      <div class="jednodelna-slika col-md-6">
+            <?php print render($page['content']);?>
+      </div>
       <div id="jednodelna-forma" class="col-md-6">
       </div>
     </section>
