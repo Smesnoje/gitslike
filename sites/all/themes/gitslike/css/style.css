@@ -7100,6 +7100,7 @@ button.close {
   display: inline-block;
 }
 .block-produkti .views-row {
+  vertical-align: top;
   display: inline-block;
   width: 200px;
   margin-right: 20px;
@@ -7131,5 +7132,8 @@ button.close {
 .product-teaser .field .field-items .field-item a img {
   padding: 2px;
   border: 1px solid #9a9999;
+}
+.view-view-zadovoljni-kupci .views-row {
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */
