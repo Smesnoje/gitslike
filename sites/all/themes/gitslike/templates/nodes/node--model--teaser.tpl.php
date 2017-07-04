@@ -105,7 +105,7 @@
 <?php    print render($content);  ?>
 
 
-  <h2><?php print $title; ?></h2>
+  <h3><?php print $title; ?></h3>
   <button id="model" type="button" onclick="model<?php print ($node->nid);?>()">Poruci</button>
   </div>
 </article>

@@ -7068,6 +7068,9 @@ button.close {
   border: 1px solid #3399dd;
   margin-left: -2px;
 }
+.view-model h3 {
+  color: #133c58;
+}
 .view-model .model .field .field-items {
   padding: 1px;
 }
@@ -7086,5 +7089,31 @@ button.close {
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 30px;
+}
+.product-teaser {
+  font-family: latosemibold;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #3399dd;
+  padding: 5px;
+  background: linear-gradient(#dadada, #e0dede);
+}
+.product-teaser .field-name-price {
+  width: 100px;
+  margin: auto;
+}
+.product-teaser .field-name-field-dimenzija {
+  margin: auto;
+  width: 160px;
+}
+.product-teaser .basic-cart-add-to-cart a {
+  font-size: 18px;
+}
+.product-teaser h3 {
+  color: #133c58;
+}
+.product-teaser .field .field-items .field-item a img {
+  padding: 2px;
+  border: 1px solid #9a9999;
 }
 /*# sourceMappingURL=style.css.map */
