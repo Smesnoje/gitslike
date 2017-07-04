@@ -199,7 +199,7 @@ function basic_cart_order_Checkout() {
   unset($form['field_total_price']);
   unset($form['vat']);
 
-  $form['actions']['submit']['#value'] = t('Submit order');
+  $form['actions']['submit']['#value'] = t('Pošalji porudžbinu');
 
   $form = drupal_render($form);
   return $cart . $form;
