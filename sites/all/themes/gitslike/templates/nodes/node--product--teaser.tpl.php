@@ -83,7 +83,8 @@
 <article id="node-<?php print $node->nid; ?>" class="product"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <?php endif; ?>
-  <?php
+<div class="product-teaser">
+    <?php
     // Hide comments, tags, and links now so that we can render them later.
     hide($content['comments']);
     hide($content['links']);
@@ -96,5 +97,6 @@
     print render($content['price']);
     print render($content['add_to_cart']);
   ?>
+  
 
 </article>
