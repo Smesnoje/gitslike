@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the webform conditionals   feature.
+ */
+
+include_once 'webform_conditionals_.features.inc';
