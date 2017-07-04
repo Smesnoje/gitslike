@@ -7047,6 +7047,22 @@ button.close {
 .front-bot .video-bot {
   padding-top: 50px;
 }
+.galerija-kupci {
+  margin: 10px 50px 0px 10px;
+  vertical-align: top;
+  display: inline-block;
+  width: 125px;
+  text-align: center;
+  height: 100%;
+}
+.galerija-kupci a {
+  color: #737373;
+  font-family: latosemibold;
+}
+.galerija-kupci a:hover {
+  text-decoration: none;
+  color: #4099dd;
+}
 #block-views-modeli-po-porudzbini-block {
   text-align: center;
   font-family: latosemibold;
@@ -7110,7 +7126,7 @@ button.close {
   font-size: 18px;
 }
 .product-teaser h3 {
-  color: #133c58;
+  color: #133c57;
 }
 .product-teaser .field .field-items .field-item a img {
   padding: 2px;
