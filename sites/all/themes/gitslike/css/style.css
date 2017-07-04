@@ -6736,6 +6736,19 @@ button.close {
 .category-title {
   text-align: center!important;
 }
+.jednodelna-slika {
+  padding: 2%;
+  border: 1px solid  #ccc;
+  margin-top: 2%;
+  border-radius: 5px;
+}
+.holder-form {
+  margin-bottom: 100px;
+}
+.jednodelna-forma {
+  margin-top: 2%;
+  font-family: latosemibold;
+}
 .model {
   width: 200px;
   height: 300px;
@@ -7023,7 +7036,8 @@ button.close {
   margin-left: 15%;
 }
 .front-top {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 10px solid black;
 }
 .front-bot {
   padding-top: 20px;

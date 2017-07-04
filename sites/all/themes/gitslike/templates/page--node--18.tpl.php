@@ -144,7 +144,7 @@
 
 <div class="main-container <?php print $container_class; ?>">
   <div class="row">
-    <section class="col-sm-12">
+    <section class="col-sm-12 holder-form">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
@@ -166,9 +166,9 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <div class="jednodelna-slika col-md-6">
-            <?php print render($page['content']);?>
+            <img src="<?php echo $base_path?>sites/default/files/jednodelna-slika.jpg" width="100%" height="100%"/>
       </div>
-      <div id="jednodelna-forma" class="col-md-6">
+      <div id="jednodelna-forma" class="col-md-6 jednodelna-forma">
       </div>
     </section>
   </div>
