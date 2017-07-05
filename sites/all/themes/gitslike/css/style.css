@@ -6859,7 +6859,7 @@ button.close {
   margin: 10px 50px 0px 10px;
   vertical-align: top;
   display: inline-block;
-  width: 100px;
+  width: 90px;
   height: 100%;
   color: #737373;
 }
@@ -7120,7 +7120,7 @@ button.close {
   background: linear-gradient(#dadada, #e0dede);
 }
 .product-teaser .field-name-price {
-  width: 100px;
+  width: 110px;
   margin: auto;
 }
 .product-teaser .field-name-field-dimenzija {
