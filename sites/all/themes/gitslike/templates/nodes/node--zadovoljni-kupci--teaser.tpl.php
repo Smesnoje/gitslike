@@ -84,7 +84,7 @@
   <header>
     <?php print render($title_prefix); ?>
     <?php if (!$page && !empty($title)): ?>
-    <h4<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h4>
+    <!-- <h4<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h4> -->
     <?php endif; ?>
     <?php print render($title_suffix); ?>
     <?php if ($display_submitted): ?>
