@@ -129,6 +129,8 @@
                 <?php print render($page['preview_block2']);?>
               </div>
             </div>
+            <div class="galerija-kupci"><a href="<?php echo $base_path?>zadovoljni-kupci">Galerija zadovoljnih kupaca</a>
+            </div>
           </div>
           </nav>
         </div>
