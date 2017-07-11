@@ -153,7 +153,7 @@
   <div class="row front-top">
     <section class="col-sm-6">
       <div class="front-img">
-          <img src="<?php echo $base_path?>sites/default/files/front.png" height="400px" width="800px"/>
+          <img src="<?php echo $base_path?>sites/default/files/front.png"/>
       </div>
 
     </section>
@@ -166,10 +166,21 @@
   </div>
   <div class="row front-bot">
   <?php if (!empty($page['page_video'])): ?>
-    <div class="col-md-6 tekst">
+    <div class="video-text">
+       <h3>  Naslov neki ovde</h3>
+                Lorem ipsum dolor sit amet, graeci periculis dissentias has id, dicam mucius noster eu nam.
+                Causae delicatissimi vel ne, qui id dicat nominavi gloriatur. Aliquip philosophia vis eu, nisl
+                habeo accusam vim cu, vim ei eirmod consequuntur. Quidam corrumpit voluptaria eam te, duo esse
+                impetus dignissim an, ei ignota intellegebat has. Mei admodum interpretaris ei, utinam scriptorem
+                 duo ad, vis ei dolor maiorum. Te sea illud falli lobortis.
+
+          Sumo dolor option ut vim, ad mundi putant iracundia nec, sit ex epicuri
+           nostrum. Id stet nominavi deseruisse sit. Ea discere albucius oportere est, an
+           oratio nostro percipit nam, ex sit accusamus pertinacia. Cu per iusto disputando
+           comprehensam. Velit erant cu pro. Nec at magna primis dignissim.
       <?php print render($page['page_kontakt']); ?>
     </div>
-    <aside class="col-md-6 video-bot" role="complementary">
+    <aside class="front-video video-bot " role="complementary">
       <?php print render ($page['page_video']); ?>
     </aside>  <!-- /#page_bottom -->
   <?php endif; ?>
