@@ -7059,9 +7059,6 @@ button.close {
   background: linear-gradient(to right, whitesmoke, #ccc);
   padding-bottom: 100px;
 }
-.front-bot .video-bot {
-  padding-top: 50px;
-}
 .galerija-kupci {
   margin: 10px 5px 0px 10px;
   vertical-align: top;
@@ -7081,6 +7078,22 @@ button.close {
 }
 .galerija-kupci a:focus {
   text-decoration: none;
+}
+.video-text {
+  float: left;
+  width: 500px;
+  margin: 15px;
+}
+.front-video {
+  float: right;
+  margin: 15px;
+}
+.front-img img {
+  width: 800px;
+  height: 400px;
+}
+.about {
+  font-size: 14px;
 }
 #block-views-modeli-po-porudzbini-block {
   text-align: center;
