@@ -73,6 +73,8 @@
  * @ingroup templates
  */
 ?>
+<script>f
+</script>
 <header id="navbar" role="banner" class="navbar-container">
   <?php print render ($page['text_blocks']); ?>
   <div class="cart">
@@ -151,15 +153,11 @@
   </header> <!-- /#page-header -->
 
   <div class="row front-top">
-    <section class="col-sm-6">
       <div class="front-img">
           <img src="<?php echo $base_path?>sites/default/files/front.png"/>
       </div>
-
-    </section>
-
     <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-sm-4 about" role="complementary">
+      <aside class="about" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
@@ -180,7 +178,7 @@
            comprehensam. Velit erant cu pro. Nec at magna primis dignissim.
       <?php print render($page['page_kontakt']); ?>
     </div>
-    <aside class="front-video video-bot " role="complementary">
+    <aside class="front-video video-bot" role="complementary">
       <?php print render ($page['page_video']); ?>
     </aside>  <!-- /#page_bottom -->
   <?php endif; ?>

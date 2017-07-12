@@ -7019,17 +7019,6 @@ button.close {
 .git-header {
   text-align: center;
 }
-.front-img {
-  width: 80%;
-}
-.about {
-  text-align: center;
-  margin-left: 5%;
-}
-.about h2 {
-  font-family: jenna_sueregular;
-  font-size: 40px;
-}
 .fa {
   font-size: 48px!important;
   color: white;
@@ -7092,19 +7081,64 @@ button.close {
 }
 .video-text {
   float: left;
-  width: 500px;
+  width: 40%;
   margin: 15px;
+  padding: 10px;
 }
 .front-video {
   float: right;
+  width: 50%;
   margin: 15px;
+  padding: 10px;
+}
+.front-img {
+  width: 50%;
+  float: left;
 }
 .front-img img {
-  width: 800px;
-  height: 400px;
+  width: 100%;
 }
 .about {
   font-size: 14px;
+  width: 40%;
+  float: right;
+  text-align: center;
+  margin-right: 5%;
+}
+.about h2 {
+  font-family: jenna_sueregular;
+  font-size: 40px;
+}
+.player {
+  width: 100%;
+}
+.player iframe {
+  width: 100%;
+}
+@media (max-width: 1400px) {
+  .front-top .front-img {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+  }
+  .front-top .about {
+    position: relative;
+    width: 100%;
+    float: none;
+    padding: 15px;
+  }
+  .front-bot .video-text {
+    margin: 0px;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .front-bot .front-video {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    position: relative;
+  }
 }
 #block-views-modeli-po-porudzbini-block {
   text-align: center;
