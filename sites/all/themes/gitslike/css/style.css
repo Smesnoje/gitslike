@@ -6808,6 +6808,9 @@ button.close {
   width: 300px;
 }
 @media screen and (max-width: 1000px) and (min-width: 300px) {
+  .git-header {
+    margin-top: 160px;
+  }
   .menu-on {
     z-index: -49;
     display: block!important;
@@ -6823,8 +6826,8 @@ button.close {
     width: 45px;
     overflow: hidden;
     height: 42px;
-    display: block!important;
-    margin-left: 5px;
+    display: inline-block !important;
+    margin-left: 10px;
   }
   #block-block-1 {
     margin: 0px 0px 0px 50px!important;
@@ -7162,6 +7165,7 @@ button.close {
   display: none;
 }
 .menu-konacno {
+  margin-top: 17px;
   padding-right: 20px;
   padding-bottom: 25px;
   background: linear-gradient(#3399dd, #374080, #3399dd);
@@ -7198,6 +7202,11 @@ button.close {
   font-weight: bold;
   font-size: 25px;
   margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .navbar-header {
+    margin-left: 215px!important;
+  }
 }
 #block-views-modeli-po-porudzbini-block {
   text-align: center;
