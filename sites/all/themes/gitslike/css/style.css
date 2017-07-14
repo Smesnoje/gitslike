@@ -6808,6 +6808,24 @@ button.close {
   width: 300px;
 }
 @media screen and (max-width: 1000px) and (min-width: 300px) {
+  .menu-on {
+    z-index: -49;
+    display: block!important;
+  }
+  .header-menu {
+    display: none;
+  }
+  #navbar {
+    position: fixed;
+    z-index: 100;
+  }
+  .responsive-menu {
+    width: 45px;
+    overflow: hidden;
+    height: 42px;
+    display: block!important;
+    margin-left: 5px;
+  }
   #block-block-1 {
     margin: 0px 0px 0px 50px!important;
   }
@@ -7139,6 +7157,47 @@ button.close {
     padding: 10px;
     position: relative;
   }
+}
+.responsive-menu {
+  display: none;
+}
+.menu-konacno {
+  padding-right: 20px;
+  padding-bottom: 25px;
+  background: linear-gradient(#3399dd, #374080, #3399dd);
+  color: white;
+  position: fixed;
+  transition: 0.2s;
+  width: 320px;
+}
+.menu-konacno a {
+  color: white;
+}
+.menu-konacno ul {
+  list-style: none;
+  font-weight: bold;
+}
+.menu-konacno ul li {
+  margin-left: -65px;
+  text-align: right;
+  font-size: 20px;
+  margin-top: 30px;
+  border-bottom: 1px solid white;
+}
+.menu-konacno ul li a {
+  color: white;
+}
+.menu-konacno ul li a:active {
+  text-decoration: none;
+}
+.menu-konacno ul li a:focus {
+  text-decoration: none;
+}
+.menu-konacno h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 20px;
 }
 #block-views-modeli-po-porudzbini-block {
   text-align: center;

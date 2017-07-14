@@ -73,15 +73,44 @@
  * @ingroup templates
  */
 ?>
-<script>f
+<script>
+jQuery(document).ready(function(){
+    jQuery(".menu-icon").click(function(){
+        jQuery(".menu-list ").toggleClass("menu-konacno");
+
+    });
+
+});
 </script>
 <header id="navbar" role="banner" class="navbar-container">
+  <div class="responsive-menu">
+       <div id="menu-icon" class="menu-icon "> <i class="fa fa-bars" aria-hidden="true"></i> </div>
+       <div class="menu-list">
+         <ul>
+          <h3>Slike po porudzbini</h3>
+           <ul>
+             <li> <a href="#"> Poruci Jednodelne</a> </li>
+             <li><a href="#"> Poruci Visedelne</a> </li>
+             <li> <a href="#"> Poruci Kolaz</a></li>
+           </ul>
+         </li>
+         <h3>Prodajna Galerija</h3>
+           <ul>
+             <li> <a href="#"> Galerija Jednodelne</a> </li>
+             <li><a href="#"> Galerija Visedelne</a> </li>
+             <li> <a href="#"> Galerija Svetlece</a></li>
+           </ul></li>
+         <h3><a href="#">Zadovoljni kupci</a></h3>
+       </ul>
+   </div>
+  </div>
   <?php print render ($page['text_blocks']); ?>
   <div class="cart">
   <a href="<?php echo $base_path?>/cart" class="fa fa-shopping-cart" aria-hidden="true"></a>
   <a type="button" class="kontakt" href="<?php echo $base_path?>/kontakt">Kontakt
 </a>
 </div>
+
   <div class="header-menu">
     <div class="<?php print $container_class; ?>">
       <div class="navbar-header">
@@ -144,6 +173,8 @@
       <?php endif; ?>
     </div>
   </div>
+
+
 </header>
 
 <div class="main-container <?php print $container_class; ?>">
