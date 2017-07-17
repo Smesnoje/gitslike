@@ -6936,7 +6936,7 @@ button.close {
   border: 1px solid #3399dd;
   width: 650px;
   position: absolute;
-  right: 260px;
+  right: 365px;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.3s, opacity 0.3s linear;
