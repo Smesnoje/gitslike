@@ -6808,6 +6808,9 @@ button.close {
   width: 300px;
 }
 @media screen and (max-width: 1000px) and (min-width: 300px) {
+  .category-title {
+    margin-top: 110px;
+  }
   .git-header {
     margin-top: 160px;
   }

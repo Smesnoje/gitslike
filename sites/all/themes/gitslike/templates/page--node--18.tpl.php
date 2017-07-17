@@ -75,7 +75,7 @@
 ?>
 <script>
  jQuery(document).ready(function() {
-     jQuery('#jednodelna-forma').load("http://localhost/gitslike/node/11  .webform-client-form");
+     jQuery('#jednodelna-forma').load("http://104.197.238.134/gitslike/node/11  .webform-client-form");
    });
 </script>
 <header id="navbar" role="banner" class="navbar-container">
