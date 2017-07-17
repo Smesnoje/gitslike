@@ -7181,6 +7181,9 @@ button.close {
   position: fixed;
   transition: 0.2s;
   width: 320px;
+  height: 400px;
+  overflow: scroll;
+  z-index: 1000;
 }
 .menu-konacno a {
   color: white;
@@ -7193,7 +7196,7 @@ button.close {
   margin-left: -65px;
   text-align: right;
   font-size: 19px;
-  margin-top: 19px;
+  margin-top: 22px;
   border-bottom: 1px solid white;
 }
 .menu-konacno ul li a {
