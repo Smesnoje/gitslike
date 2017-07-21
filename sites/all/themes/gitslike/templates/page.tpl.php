@@ -150,7 +150,7 @@ jQuery(document).ready(function(){
                 <h2 class="home-platno">Slike iz tri dela</h2>
               </div>
             <div class="blockpreview1">
-              <p class="dd-block">Slike po porudzbini</p>
+              <p class="dd-block">Slike po porudžbini</p>
                <div class="arrow-up"></div>
               <div class="slike-po-porudzbini">
               <?php print render($page['preview_block1']); ?>

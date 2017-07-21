@@ -265,13 +265,25 @@ th {
   font-style: normal;
 }
 @font-face {
+  font-family: 'clear_sans_mediumregular';
+  src: url('clearsans-medium-webfont.woff2') format('woff2'), url('clearsans-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'aileronsemibold';
+  src: url('aileron-semibold-webfont.woff2') format('woff2'), url('aileron-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 @font-face {
-  font-family: 'didact_gothicregular';
-  src: url('didactgothic-regular-webfont.woff2') format('woff2'), url('didactgothic-regular-webfont.woff') format('woff');
+  font-family: 'arimoregular';
+  src: url('arimo-regular-webfont.woff2') format('woff2'), url('arimo-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -6753,7 +6765,7 @@ button.close {
 }
 .jednodelna-forma {
   margin-top: 2%;
-  font-family: didact_gothicregular;
+  font-family: aileronsemibold;
 }
 .model {
   width: 200px;
@@ -6849,6 +6861,13 @@ button.close {
   }
 }
 @media screen and (max-width: 1600px) {
+  .block-wrap {
+    width: 70%;
+    float: right;
+  }
+  .home-link {
+    width: 300px;
+  }
   #block-block-1 {
     margin: 0px 0px 0px 150px;
   }
@@ -6897,7 +6916,8 @@ button.close {
 .blockpreview1 .dd-block {
   cursor: pointer;
   text-align: center;
-  font-family: didact_gothicregular;
+  font-family: aileronsemibold;
+  font-size: 13px;
 }
 .blockpreview1 .dd-block:hover {
   color: #4099dd;
@@ -6921,7 +6941,8 @@ button.close {
 .blockpreview2 .dd-block {
   cursor: pointer;
   text-align: center;
-  font-family: didact_gothicregular;
+  font-family: aileronsemibold;
+  font-size: 13px;
 }
 .blockpreview2 .dd-block:hover {
   color: #4099dd;
@@ -7027,7 +7048,7 @@ button.close {
 }
 .category-block h2 {
   font-size: 14px!important;
-  font-family: didact_gothicregular;
+  font-family: aileronsemibold;
 }
 .category-block h2 a:hover {
   cursor: pointer;
@@ -7097,8 +7118,9 @@ button.close {
 }
 .galerija-kupci a {
   color: #737373;
-  font-family: didact_gothicregular;
+  font-family: aileronsemibold;
   text-decoration: none;
+  font-size: 13px;
 }
 .galerija-kupci a:hover {
   text-decoration: none;
