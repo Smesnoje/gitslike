@@ -6905,8 +6905,8 @@ button.close {
   height: 100%;
 }
 .main-container h1 {
-  font-family: jenna_sueregular;
-  font-size: 100px;
+  font-family: aileronsemibold;
+  font-size: 50px;
 }
 .navbar-2 {
   width: 100%;
@@ -7170,8 +7170,8 @@ button.close {
   margin-right: 5%;
 }
 .about h2 {
-  font-family: jenna_sueregular;
-  font-size: 40px;
+  font-family: aileronsemibold;
+  font-size: 50px;
 }
 .player {
   width: 100%;
@@ -7254,6 +7254,9 @@ button.close {
   }
 }
 .home-link-responsive {
+  display: none;
+}
+.navbar-nav {
   display: none;
 }
 #block-views-modeli-po-porudzbini-block {
