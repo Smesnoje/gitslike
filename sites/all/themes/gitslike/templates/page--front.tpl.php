@@ -87,6 +87,11 @@ jQuery(document).ready(function(){
        <div id="menu-icon" class="menu-icon "> <i class="fa fa-bars" aria-hidden="true"></i> </div>
        <div class="menu-list">
          <ul>
+           <div class="home-link-responsive">
+               <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+                Početna
+               </a>
+           </div>
           <h3>Slike po porudzbini</h3>
            <ul>
              <li> <a href="http://104.197.238.134/gitslike/node/18"> Poruci Jednodelne</a> </li>
@@ -104,6 +109,7 @@ jQuery(document).ready(function(){
        </ul>
    </div>
   </div>
+
   <?php print render ($page['text_blocks']); ?>
   <div class="cart">
   <a href="<?php echo $base_path?>/cart" class="fa fa-shopping-cart" aria-hidden="true"></a>
