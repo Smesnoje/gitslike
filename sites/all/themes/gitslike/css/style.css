@@ -6784,6 +6784,10 @@ button.close {
 .basic-cart-add-to-cart a:hover {
   text-decoration: none;
 }
+.git-header h1 {
+  font-family: jenna_sueregular!important;
+  font-size: 100px!important;
+}
 .navbar-container {
   width: 100%!important;
   border: 1px solid #737373;
@@ -6825,7 +6829,7 @@ button.close {
     color: red!important;
   }
 }
-@media screen and (max-width: 1000px) and (min-width: 300px) {
+@media screen and (max-width: 1024px) and (min-width: 300px) {
   .home-link-responsive a {
     font-weight: bold;
     font-size: 30px!important;
@@ -6918,7 +6922,7 @@ button.close {
   height: 60px!important;
 }
 .block-wrap {
-  width: 85%;
+  width: 77%;
   display: inline-block;
   height: 51px;
 }
@@ -7268,7 +7272,7 @@ button.close {
 }
 #block-views-modeli-po-porudzbini-block {
   text-align: center;
-  font-family: didact_gothicregular;
+  font-family: aileronsemibold;
 }
 .block-modeli {
   margin: 0 auto;
@@ -7301,7 +7305,7 @@ button.close {
 }
 #block-views-produkt-galerija-block {
   text-align: center;
-  font-family: didact_gothicregular;
+  font-family: aileronsemibold;
 }
 .block-produkti {
   margin: 0 auto;
@@ -7317,7 +7321,7 @@ button.close {
   margin-bottom: 30px;
 }
 .product-teaser {
-  font-family: didact_gothicregular;
+  font-family: aileronsemibold;
   width: 200px;
   height: 300px;
   border: 1px solid #3399dd;

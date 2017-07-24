@@ -106,6 +106,6 @@
 
 
   <h3><?php print $title; ?></h3>
-  <button id="model" type="button" onclick="model<?php print ($node->nid);?>()">Poruci</button>
+  <button id="model" type="button" onclick="model<?php print ($node->nid);?>()">Poruči</button>
   </div>
 </article>

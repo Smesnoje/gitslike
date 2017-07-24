@@ -77,7 +77,7 @@
  jQuery(document).ready(function() {
      jQuery('#jednodelna-forma').load("http://104.197.238.134/gitslike/node/11  .webform-client-form");
    });
-   
+
    jQuery(document).ready(function(){
        jQuery(".menu-icon").click(function(){
            jQuery(".menu-list ").toggleClass("menu-konacno");
@@ -109,6 +109,11 @@
    </div>
   </div>
   <?php print render ($page['text_blocks']); ?>
+  <div class="cart">
+  <a href="<?php echo $base_path?>/cart" class="fa fa-shopping-cart" aria-hidden="true"></a>
+  <a type="button" class="kontakt" href="<?php echo $base_path?>/kontakt">Kontakt
+</a>
+</div>
   <div class="header-menu">
     <div class="<?php print $container_class; ?>">
       <div class="navbar-header">
