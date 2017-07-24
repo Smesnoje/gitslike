@@ -12,7 +12,7 @@ function basic_cart_cart() {
   $cart = basic_cart_get_cart();
 
   if (empty($cart)) {
-    return t('Your cart is empty.');
+    return t('Korpa je prazna.');
   }
   return drupal_get_form('basic_cart_cart_form');
 }

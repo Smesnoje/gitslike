@@ -66,7 +66,7 @@ function basic_cart_menu() {
   );
 
   $items['cart'] = array(
-    'title' => 'Your shopping cart.',
+    'title' => 'Vaša korpa.',
     'description' => 'The shopping cart page',
     'page callback' => 'basic_cart_cart',
     'access arguments' => array('use basic cart'),
