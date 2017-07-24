@@ -6876,11 +6876,13 @@ button.close {
 }
 @media screen and (max-width: 1600px) {
   .block-wrap {
-    width: 70%;
+    width: 70%!important;
     float: right;
   }
   .home-link {
-    width: 300px;
+    width: 300px!important;
+    margin-left: 0%!important;
+    margin-right: 0%!important;
   }
   #block-block-1 {
     margin: 0px 0px 0px 150px;
@@ -6916,6 +6918,7 @@ button.close {
   height: 60px!important;
 }
 .block-wrap {
+  width: 85%;
   display: inline-block;
   height: 51px;
 }
@@ -6928,6 +6931,7 @@ button.close {
   color: #737373;
 }
 .blockpreview1 .dd-block {
+  margin-bottom: 14px!important;
   cursor: pointer;
   text-align: center;
   font-family: aileronsemibold;
@@ -6953,6 +6957,7 @@ button.close {
   color: #737373;
 }
 .blockpreview2 .dd-block {
+  margin-bottom: 14px!important;
   cursor: pointer;
   text-align: center;
   font-family: aileronsemibold;
@@ -7071,6 +7076,8 @@ button.close {
 .home-link {
   width: 205px;
   height: 50px;
+  margin-left: 25%;
+  margin-right: 17%;
   display: inline-block;
 }
 .home-link h2 {
