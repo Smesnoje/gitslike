@@ -6765,13 +6765,15 @@ button.close {
 }
 .jednodelna-forma {
   margin-top: 2%;
-  font-family: aileronsemibold;
+  font-family: latosemibold;
 }
 .model {
   width: 200px;
   height: 300px;
 }
 .model .field .field-item img {
+  padding: 2px;
+  border: 1px solid #9a9999;
   margin: auto;
 }
 .product {
@@ -6822,6 +6824,7 @@ button.close {
   margin: 0px 0px 0px 300px;
   color: white;
   width: 300px;
+  font-family: latosemibold;
 }
 @media only screen and (max-height: 400px) {
   .menu-konacno {
@@ -6900,6 +6903,7 @@ button.close {
   display: inline-block;
   color: white;
   width: 300px;
+  font-family: latosemibold;
 }
 .region-text-blocks {
   display: inline-block;
@@ -6911,7 +6915,7 @@ button.close {
   height: 100%;
 }
 .main-container h1 {
-  font-family: aileronsemibold;
+  font-family: latosemibold;
   font-size: 50px;
 }
 .navbar-2 {
@@ -6938,7 +6942,7 @@ button.close {
   margin-bottom: 14px!important;
   cursor: pointer;
   text-align: center;
-  font-family: aileronsemibold;
+  font-family: latosemibold;
   font-size: 13px;
 }
 .blockpreview1 .dd-block:hover {
@@ -6964,7 +6968,7 @@ button.close {
   margin-bottom: 14px!important;
   cursor: pointer;
   text-align: center;
-  font-family: aileronsemibold;
+  font-family: latosemibold;
   font-size: 13px;
 }
 .blockpreview2 .dd-block:hover {
@@ -7071,7 +7075,7 @@ button.close {
 }
 .category-block h2 {
   font-size: 14px!important;
-  font-family: aileronsemibold;
+  font-family: latosemibold;
 }
 .category-block h2 a:hover {
   cursor: pointer;
@@ -7143,7 +7147,7 @@ button.close {
 }
 .galerija-kupci a {
   color: #737373;
-  font-family: aileronsemibold;
+  font-family: latosemibold;
   text-decoration: none;
   font-size: 13px;
 }
@@ -7181,7 +7185,7 @@ button.close {
   margin-right: 5%;
 }
 .about h2 {
-  font-family: aileronsemibold;
+  font-family: latosemibold;
   font-size: 50px;
 }
 .player {
@@ -7272,7 +7276,7 @@ button.close {
 }
 #block-views-modeli-po-porudzbini-block {
   text-align: center;
-  font-family: aileronsemibold;
+  font-family: latosemibold;
 }
 .block-modeli {
   margin: 0 auto;
@@ -7305,7 +7309,7 @@ button.close {
 }
 #block-views-produkt-galerija-block {
   text-align: center;
-  font-family: aileronsemibold;
+  font-family: latosemibold;
 }
 .block-produkti {
   margin: 0 auto;
@@ -7321,7 +7325,7 @@ button.close {
   margin-bottom: 30px;
 }
 .product-teaser {
-  font-family: aileronsemibold;
+  font-family: latosemibold;
   width: 200px;
   height: 300px;
   border: 1px solid #3399dd;
@@ -7329,12 +7333,12 @@ button.close {
   background: linear-gradient(#dadada, #e0dede);
 }
 .product-teaser .field-name-price {
-  width: 110px;
+  width: 130px;
   margin: auto;
 }
 .product-teaser .field-name-field-dimenzija {
   margin: auto;
-  width: 160px;
+  width: 135px;
 }
 .product-teaser .basic-cart-add-to-cart a {
   font-size: 18px;
@@ -7358,5 +7362,14 @@ button.close {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 5px;
+}
+.view-header {
+  text-align: center;
+  background-image: linear-gradient(to right, #ccc 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 25px 1px;
+  background-repeat: repeat-x;
+  padding-bottom: 15px;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */

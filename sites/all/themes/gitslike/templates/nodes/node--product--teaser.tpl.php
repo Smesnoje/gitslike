@@ -91,12 +91,12 @@
     hide($content['field_tags']);
     print render($content['field_product_image']);
   ?>
-  <h3><?php print $title; ?></h3>
+  <h4><?php print $title; ?></h4>
   <?php
     print render($content['field_dimenzija']);
     print render($content['price']);
     print render($content['add_to_cart']);
   ?>
-  
+
 
 </article>
