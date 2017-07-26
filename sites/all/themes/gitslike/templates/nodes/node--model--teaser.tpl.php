@@ -88,7 +88,7 @@
       window.location.replace(""+baseUrl+"/node/12/?model=<?php echo ($node->title); ?>");
     }
     else {
-      window.location.replace("http://104.197.238.134/node/13/?model=<?php echo ($node->title); ?>");
+      window.location.replace("http://104.197.238.134/13/?model=<?php echo ($node->title); ?>");
     }
   }
 </script>
