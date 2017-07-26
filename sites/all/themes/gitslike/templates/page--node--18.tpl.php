@@ -74,17 +74,19 @@
  */
 ?>
 <script>
- jQuery(document).ready(function() {
-     jQuery('#jednodelna-forma').load("http://104.197.238.134/gitslike/node/11  .webform-client-form");
-   });
+jQuery(document).ready(function() {
+  var getUrl = window.location;
+  var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+    jQuery('#jednodelna-forma').load(""+baseUrl+"/node/11  .webform-client-form");
+  });
 
-   jQuery(document).ready(function(){
-       jQuery(".menu-icon").click(function(){
-           jQuery(".menu-list ").toggleClass("menu-konacno");
+  jQuery(document).ready(function(){
+      jQuery(".menu-icon").click(function(){
+          jQuery(".menu-list ").toggleClass("menu-konacno");
 
-       });
+      });
 
-   });
+  });
 </script>
 <header id="navbar" role="banner" class="navbar-container">
   <div class="responsive-menu">
