@@ -83,14 +83,14 @@
 
 <script>function model<?php print ($node->nid);?>(){
   var getUrl = window.location;
-    var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-    if(window.location.href.indexOf("19") > -1) {
-      window.location.replace(""+baseUrl+"/node/12/?model=<?php echo ($node->title); ?>");
-    }
-    else {
-      window.location.replace("http://104.197.238.134/13/?model=<?php echo ($node->title); ?>");
-    }
+  var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  if(window.location.href.indexOf("19") > -1) {
+    window.location.replace(""+baseUrl+"/node/12/?model=<?php echo ($node->title); ?>");
   }
+  else {
+    window.location.replace(""+baseUrl+"/node/13/?model=<?php echo ($node->title); ?>");
+  }
+}
 </script>
 
 
