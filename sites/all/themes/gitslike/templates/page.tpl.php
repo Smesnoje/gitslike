@@ -48,7 +48,7 @@
  *   (e.g., the view and edit tabs when displaying a node).
  * - $action_links (array): Actions local to the page, such as 'Add menu' on the
  *   menu administration interface.
- * - $feed_icons: A string of all feed icons for the current page.
+ * - $feed_icons: A string of all feURLed icons for the current page.
  * - $node: The node object, if there is an automatically-loaded node
  *   associated with the page, and the node ID is the second argument
  *   in the page's path (e.g. node/12345 and node/12345/revisions, but not
@@ -87,27 +87,32 @@ jQuery(document).ready(function(){
        <div id="menu-icon" class="menu-icon "> <i class="fa fa-bars" aria-hidden="true"></i> </div>
        <div class="menu-list">
          <ul>
+           <div class="home-link-responsive">
+               <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+                Početna
+               </a>
+           </div>
           <h3>Slike po porudzbini</h3>
            <ul>
-             <li> <a href="http://104.197.238.134/gitslike/node/18"> Poruci Jednodelne</a> </li>
-             <li><a href="http://104.197.238.134/gitslike/node/19"> Poruci Visedelne</a> </li>
-             <li> <a href="http://104.197.238.134/gitslike/node/20"> Poruci Kolaz</a></li>
+             <li> <a href="<?php echo $base_path ?>node/18"> Poruci Jednodelne</a> </li>
+             <li><a href="<?php echo $base_path ?>node/19"> Poruci Visedelne</a> </li>
+             <li> <a href="<?php echo $base_path ?>node/20"> Poruci Kolaz</a></li>
            </ul>
          </li>
          <h3>Prodajna Galerija</h3>
            <ul>
-             <li> <a href="http://104.197.238.134/gitslike/node/23"> Galerija Jednodelne</a> </li>
-             <li><a href="http://104.197.238.134/gitslike/node/24"> Galerija Visedelne</a> </li>
-             <li> <a href="http://104.197.238.134/gitslike/node/25"> Galerija Svetlece</a></li>
+             <li> <a href="<?php echo $base_path ?>node/23"> Galerija Jednodelne</a> </li>
+             <li><a href="<?php echo $base_path ?>node/24"> Galerija Visedelne</a> </li>
+             <li> <a href="<?php echo $base_path ?>node/25"> Galerija Svetlece</a></li>
            </ul></li>
-         <h3><a href="http://104.197.238.134/gitslike/zadovoljni-kupci">Zadovoljni kupci</a></h3>
+         <h3><a href="<?php echo $base_path ?>zadovoljni-kupci">Zadovoljni kupci</a></h3>
        </ul>
    </div>
   </div>
   <?php print render ($page['text_blocks']); ?>
   <div class="cart">
-  <a href="<?php echo $base_path?>/cart" class="fa fa-shopping-cart" aria-hidden="true"></a>
-  <a href="<?php echo $base_path?>/kontakt" class="kontakt">Kontakt</a>
+  <a href="<?php echo $base_path?>cart" class="fa fa-shopping-cart" aria-hidden="true"></a>
+  <a href="<?php echo $base_path?>kontakt" class="kontakt">Kontakt</a>
 </div>
   <div class="header-menu">
     <div class="<?php print $container_class; ?>">
