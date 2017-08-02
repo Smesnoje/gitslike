@@ -82,11 +82,13 @@
 
 
 <script>function model<?php print ($node->nid);?>(){
+  var getUrl = window.location;
+  var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
   if(window.location.href.indexOf("19") > -1) {
-    window.location.replace("http://localhost/gitslike/node/12/?model=<?php echo ($node->title); ?>");
+    window.location.replace(""+baseUrl+"/12/?model=<?php echo ($node->title); ?>");
   }
   else {
-    window.location.replace("http://localhost/gitslike/node/13/?model=<?php echo ($node->title); ?>");
+    window.location.replace(""+baseUrl+"/13/?model=<?php echo ($node->title); ?>");
   }
 }
 </script>
