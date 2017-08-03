@@ -40,7 +40,7 @@ function theme_basic_cart_cart_total_price($variables) {
 
   // Building the HTML.
   $html  = '<div class="basic-cart-cart-total-price-contents row">';
-  $html .= '  <div class="basic-cart-total-price cell">' . t('Total price') . ': <strong>' . $total . '</strong></div>';
+  $html .= '  <div class="basic-cart-total-price cell">' . t('Ukupna cena') . ': <strong>' . $total . '</strong></div>';
   $html .= '</div>';
 
   $vat_is_enabled = (int) variable_get('basic_cart_vat_state');
